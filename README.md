@@ -1,5 +1,11 @@
 # countdown-wallpaper
-add a countdown text to your image and set it as wallpaper everyday
+add a countdown text to your image and set it as wallpaper.
+
+the countdown is currently set to **november 29.**
+
+
+## preview
+soon..
 
 > [!WARNING]
 > dont follow the steps yet
@@ -11,8 +17,10 @@ pip install Pillow
 ```
 
 ## step 2: run it
-1. place your image file into the same folder with the script.
 2. open a terminal in that folder and run the script:
 ```
 python make_wallpaper.py
 ```
+
+## customizations
+soon..
