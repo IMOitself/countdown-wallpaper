@@ -11,7 +11,7 @@ pip install Pillow
 ```
 
 ## step 2: run it
-1. place both your single image file and the make_wallpaper.py script into the same folder.
+1. place your image file into the same folder with the script.
 2. open a terminal in that folder and run the script:
 ```
 python make_wallpaper.py
