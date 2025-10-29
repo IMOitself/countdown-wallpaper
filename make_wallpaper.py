@@ -1,12 +1,14 @@
 from PIL import Image, ImageDraw, ImageFont
 import ctypes
 import os
+from datetime import datetime
 
 script_directory = os.path.dirname(os.path.abspath(__file__))
 input_image_path = os.path.join(script_directory, "wallpaper.jpg") 
 output_image_path = os.path.join(script_directory, "wallpaper_with_text.png")
 
-my_text = "99 days left"
+days_left = (datetime(2025, 11, 29) - datetime.now()).days
+my_text = f"{days_left} days left"
 text_xy_offset = (00, 250) 
 font_path = "font.ttf" 
 font_size = 30
