@@ -17,10 +17,7 @@ pip install Pillow
 ```
 
 ## step 2: run it
-2. open a terminal in that folder and run the script:
-```
-python make_wallpaper.py
-```
+2. open the `RUN.bat` file
 
 ## customizations
 soon..
