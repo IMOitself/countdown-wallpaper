@@ -8,7 +8,7 @@ input_image_path = os.path.join(script_directory, "wallpaper.jpg")
 output_image_path = os.path.join(script_directory, "wallpaper_with_text.png")
 
 days_left = (datetime(2025, 11, 29) - datetime.now()).days
-my_text = f"{days_left} days left"
+my_text = f"{days_left + 1} days left"
 text_xy_offset = (00, 250) 
 font_path = "font.ttf" 
 font_size = 30
